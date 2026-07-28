@@ -52,7 +52,25 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.ivanmurzak.unity.mcp": "0.86.3"
+    "com.ivanmurzak.unity.mcp": "0.86.3",
+
+    "com.unity.addressables": "2.9.1",
+    "com.cysharp.unitask": "2.5.11",
+
+    "com.kidzdev.unity.addressables-toolkit": "https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit.git#v1.5.1",
+    "com.kidzdev.unity.extensions": "https://github.com/knabsiraphop/kidzdev-unity-extensions.git#v1.3.0",
+    "com.kidzdev.unity.singleton": "https://github.com/knabsiraphop/kidzdev-unity-singleton.git#v1.0.0",
+    "com.kidzdev.unity.state-machine": "https://github.com/knabsiraphop/kidzdev-unity-state-machine.git#v1.0.0",
+    "com.kidzdev.unity.ui-overlay": "https://github.com/knabsiraphop/kidzdev-unity-ui-overlay.git#v1.0.0",
+    "com.kidzdev.unity.popup": "https://github.com/knabsiraphop/kidzdev-unity-popup.git#v1.0.2",
+    "com.kidzdev.unity.screen-navigator": "https://github.com/knabsiraphop/kidzdev-unity-screen-navigator.git#v1.1.0",
+    "com.kidzdev.unity.audio": "https://github.com/knabsiraphop/kidzdev-unity-audio.git#v2.0.0",
+    "com.kidzdev.unity.local-save": "https://github.com/knabsiraphop/kidzdev-unity-local-save.git#v1.0.0",
+
+    "com.kidzdev.unity.project-conventions": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.project-conventions",
+    "com.kidzdev.unity.async-utils": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.async-utils",
+    "com.kidzdev.unity.cache": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.cache",
+    "com.kidzdev.unity.object-pool": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.object-pool"
   },
   "scopedRegistries": [
     {
@@ -60,7 +78,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.ivanmurzak",
-        "extensions.unity"
+        "extensions.unity",
+        "com.cysharp"
       ]
     }
   ]

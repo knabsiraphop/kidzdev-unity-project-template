@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.5.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.ivanmurzak.unity.mcp": {
       "version": "0.86.3",
       "depth": 0,
@@ -10,6 +17,101 @@
         "extensions.unity.playerprefsex": "2.1.5"
       },
       "url": "https://package.openupm.com"
+    },
+    "com.kidzdev.unity.addressables-toolkit": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit.git#v1.5.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "2.9.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "29850e4350092c46517be416399834cfde24415b"
+    },
+    "com.kidzdev.unity.async-utils": {
+      "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.async-utils",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      }
+    },
+    "com.kidzdev.unity.audio": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-audio.git#v2.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "2865667c19de8c1053a8ee70e0d152d160ae73ef"
+    },
+    "com.kidzdev.unity.cache": {
+      "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.cache",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.kidzdev.unity.extensions": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-extensions.git#v1.3.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b08f07c7a1fb2fc32254b36db65bb5fb7055aef1"
+    },
+    "com.kidzdev.unity.object-pool": {
+      "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.object-pool",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.kidzdev.unity.popup": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-popup.git#v1.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "53d6656ab38fd0a76f54fc914b4c1ec05c350d44"
+    },
+    "com.kidzdev.unity.project-conventions": {
+      "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.project-conventions",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.kidzdev.unity.screen-navigator": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-screen-navigator.git#v1.1.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "afc6a82e8b01d106ecc3f6ec844a639c405c00f0"
+    },
+    "com.kidzdev.unity.singleton": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-singleton.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a11bc702c26635e4bf8c8a1fd4adc88a4de0a557"
+    },
+    "com.kidzdev.unity.state-machine": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-state-machine.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "c0ea49361d7b1af3da13cea316f5e54dfbed77a1"
+    },
+    "com.kidzdev.unity.ui-overlay": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-ui-overlay.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "hash": "6c280130816c6580651f9ba5aed6697b32e9a81b"
     },
     "com.unity.2d.animation": {
       "version": "13.0.4",
@@ -110,6 +212,22 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.addressables": {
+      "version": "2.9.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.profiling.core": "1.0.2",
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "2.6.1",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
       "version": "1.8.29",
       "depth": 2,
@@ -195,6 +313,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.profiling.core": {
+      "version": "1.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "17.3.0",
       "depth": 1,
@@ -226,6 +351,16 @@
       "dependencies": {
         "com.unity.render-pipelines.core": "17.0.3"
       }
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "2.6.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.modules.assetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.searcher": {
       "version": "4.9.4",
