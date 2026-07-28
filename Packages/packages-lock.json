@@ -58,6 +58,13 @@
       "dependencies": {},
       "hash": "b08f07c7a1fb2fc32254b36db65bb5fb7055aef1"
     },
+    "com.kidzdev.unity.local-save": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-local-save.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "71d7717f59ac2a455fa54a73d6ef8530453f4d09"
+    },
     "com.kidzdev.unity.object-pool": {
       "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.object-pool",
       "depth": 0,

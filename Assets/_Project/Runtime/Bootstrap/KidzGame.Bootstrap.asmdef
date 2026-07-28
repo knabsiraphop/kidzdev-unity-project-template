@@ -6,7 +6,8 @@
     "KidzDev.Unity.AddressablesToolkit",
     "Unity.ResourceManager",
     "UniTask",
-    "UnityEngine.UI"
+    "UnityEngine.UI",
+    "KidzDev.Unity.Popup"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
