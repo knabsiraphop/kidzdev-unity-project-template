@@ -17,7 +17,7 @@ MonoBehaviour:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_InternalIdNamingMode: 0
@@ -52,9 +52,9 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 9af5066dab12d4541934eeada5ba27b0
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 869dfeb7722d19c41bcffdee76e568ce
   m_ContentStateBuildPathProfileVariableName: 
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
@@ -74,7 +74,7 @@ MonoBehaviour:
       - m_Id: 294e0f25962dcbb41b0edc272f47f791
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 869dfeb7722d19c41bcffdee76e568ce
-        m_Value: <undefined>
+        m_Value: https://knabsiraphop.github.io/kidzdev-unity-project-template/Addressables
       - m_Id: 9af5066dab12d4541934eeada5ba27b0
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: da9cd1eade2726b4aa27115ddbfef25b
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - mainmenu-scene
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: edd6f1509b19726469e59e8349622d98, type: 2}

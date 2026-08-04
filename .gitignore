@@ -52,6 +52,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Addressables remote content build output (published separately, not source)
+/ServerData/
+
 # IDE
 .vs/
 .idea/

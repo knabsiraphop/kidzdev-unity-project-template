@@ -8,7 +8,7 @@
       "url": "https://package.openupm.com"
     },
     "com.ivanmurzak.unity.mcp": {
-      "version": "0.86.3",
+      "version": "0.87.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -19,14 +19,14 @@
       "url": "https://package.openupm.com"
     },
     "com.kidzdev.unity.addressables-toolkit": {
-      "version": "https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit.git#v1.5.1",
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit.git#v1.6.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.addressables": "2.9.1",
         "com.cysharp.unitask": "2.5.11"
       },
-      "hash": "29850e4350092c46517be416399834cfde24415b"
+      "hash": "b1e68c447157d1781362510387413a2e434ccdda"
     },
     "com.kidzdev.unity.async-utils": {
       "version": "file:../../addressables-toolkit-unity/addressables-toolkit/Packages/com.kidzdev.unity.async-utils",
@@ -111,14 +111,24 @@
       },
       "hash": "c0ea49361d7b1af3da13cea316f5e54dfbed77a1"
     },
+    "com.kidzdev.unity.ui-animation": {
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-ui-animation.git#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.unity.ugui": "2.0.0"
+      },
+      "hash": "35059a074554b090a85b570195659730105f335f"
+    },
     "com.kidzdev.unity.ui-overlay": {
-      "version": "https://github.com/knabsiraphop/kidzdev-unity-ui-overlay.git#v1.0.0",
+      "version": "https://github.com/knabsiraphop/kidzdev-unity-ui-overlay.git#v1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.cysharp.unitask": "2.5.11"
       },
-      "hash": "6c280130816c6580651f9ba5aed6697b32e9a81b"
+      "hash": "29f8324f3315b0049bad42413e2d0b5482f40e50"
     },
     "com.unity.2d.animation": {
       "version": "13.0.4",

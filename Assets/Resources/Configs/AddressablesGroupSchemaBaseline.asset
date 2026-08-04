@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 296c904e248df5a478dee3500e507bb8, type: 3}
+  m_Name: AddressablesGroupSchemaBaseline
+  m_EditorClassIdentifier: KidzDev.Unity.AddressablesToolkit.Editor::KidzDev.Unity.AddressablesToolkit.Editor.AddressablesGroupSchemaBaseline
+  LocalDefaults:
+    AssetBundleCompression: 1
+    BundleNamingMode: 1
+    AssetBundleCrc: 1
+    CacheClearBehavior: 1
+    IncludeInBuild: 1
+    UseAssetBundleCache: 1
+    PreventUpdates: 0
+  RemoteDefaults:
+    AssetBundleCompression: 1
+    BundleNamingMode: 3
+    AssetBundleCrc: 1
+    CacheClearBehavior: 1
+    IncludeInBuild: 1
+    UseAssetBundleCache: 1
+    PreventUpdates: 0

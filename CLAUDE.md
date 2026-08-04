@@ -12,11 +12,11 @@ notes.
 ## Non-negotiable rules
 
 - **Never call `Addressables.*` or `SceneManager.Load*` directly** outside
-  `Assets/_Project/Runtime/Bootstrap/` or a KidzDev package's own assembly.
+  `Assets/Scripts/Runtime/Bootstrap/` or a KidzDev package's own assembly.
   Use `AssetLoader`/`AddressablePool`/`SceneLoader` from
   `com.kidzdev.unity.addressables-toolkit` instead. CI enforces this via
   `AddressablesUsageValidator` — the exemption is an exact path-string match
-  on `/_Project/Runtime/Bootstrap/`, so don't relocate or rename that folder.
+  on `/Scripts/Runtime/Bootstrap/`, so don't relocate or rename that folder.
 - **No feature asmdef references another feature's asmdef.** Route
   cross-feature communication through `KidzGame.Core` DTOs/interfaces +
   events. See `ARCHITECTURE.md` → "Assembly boundaries."
@@ -30,6 +30,11 @@ notes.
 - **Confirm with the user before any public-facing or hard-to-reverse GitHub
   action** — creating a repo, first push, force-push, tagging a release.
   This applies to this project too, not just the template it came from.
+- **Log every session's work.** Any change made in this repo (code, config,
+  docs, structural) gets an entry in `CHANGELOG.md` (what changed) and
+  `PROGRESS.md` (session log: date, what was done, what's next) at repo
+  root. Update both before ending a session — this is how the next session
+  fast-tracks context without re-deriving it.
 
 ## CI entry points
 
@@ -45,10 +50,10 @@ KidzDev.Unity.ProjectConventions.Editor.AddressablesUsageValidator.Validate
 ## Project structure quick reference
 
 ```
-Assets/_Project/Runtime/KidzGame.Core.asmdef            # DTOs/interfaces, zero references
-Assets/_Project/Runtime/Bootstrap/                       # GameBootstrap.cs lives here — see ARCHITECTURE.md
-Assets/_Project/Runtime/Features/<Name>/                 # one asmdef per feature
-Assets/_Project/Editor/, Assets/_Project/Tests/          # empty placeholders, ship with no scripts by design
+Assets/Scripts/Runtime/KidzGame.Core.asmdef              # DTOs/interfaces, zero references
+Assets/Scripts/Runtime/Bootstrap/                        # GameBootstrap.cs lives here — see ARCHITECTURE.md
+Assets/Scripts/Runtime/Features/<Name>/                  # one asmdef per feature
+Assets/Scripts/Editor/, Assets/Scripts/Tests/            # empty placeholders, ship with no scripts by design
 Assets/Scenes/Bootstrap.unity                            # Build Settings index 0, the only build-list scene
 Assets/Resources/AddressablesToolkitSettings.asset       # autoInitializeOnLaunch must stay false
 Packages/manifest.json                                   # see Packages/PENDING_PACKAGE_PINS.md for pin status
@@ -60,7 +65,9 @@ Packages/manifest.json                                   # see Packages/PENDING_
   real git URL — some are local `file:` paths pointing at a sibling checkout.
   Check `Packages/PENDING_PACKAGE_PINS.md` before recommending a clone of this
   repo onto another machine or CI runner.
-- Don't assume `AddressablesToolkitSettings.contentSource` is `Remote` — the
-  template baseline is `Local`, which skips CDN/catalog/predownload entirely.
-  `progress`/`confirm` hooks on `InitializeAsync` are inert until a project
-  switches to `Remote`.
+- This project's `AddressablesToolkitSettings.contentSource` is `Remote`
+  (flipped from the template's `Local` baseline) — CDN/catalog/predownload
+  are active, `progress`/`confirm` hooks on `InitializeAsync` are live. CDN
+  base URL is GitHub Pages (`gh-pages` branch). Don't assume `Local` when
+  reading this project; `Local` is still the template's own default for new
+  clones.

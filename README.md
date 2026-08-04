@@ -43,7 +43,7 @@ rm -rf .git && git init
 ## Default pinned packages
 
 `addressables-toolkit`, `extensions`, `singleton`, `state-machine`,
-`async-utils`, `cache`, `object-pool`, `ui-overlay`, `popup`,
+`async-utils`, `cache`, `object-pool`, `ui-overlay`, `ui-animation`, `popup`,
 `screen-navigator`, `audio`, `local-save`, plus `project-conventions`
 (Editor-only tooling). Deliberately excludes game-specific packages
 (`joystick`, `grid`, `chat-view`, `voice-chat`, `nakama-client`, etc.) — add

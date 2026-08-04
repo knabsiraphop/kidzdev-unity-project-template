@@ -777,6 +777,8 @@ MonoBehaviour:
   firstSceneAddress: MainMenu
   progressReporter: {fileID: 971539865}
   downloadConfirmGate: {fileID: 971539868}
+  sceneFadeInDuration: 1
+  sceneFadeOutDuration: 1
 --- !u!4 &971539867
 Transform:
   m_ObjectHideFlags: 0
