@@ -67,3 +67,6 @@ crashlytics-build.properties
 # Local-only project docs, not shared
 CLAUDE.md
 /plans/
+/ARCHITECTURE.md
+/CHANGELOG.md
+/PROGRESS.md
