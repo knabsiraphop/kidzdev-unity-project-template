@@ -74,7 +74,7 @@ MonoBehaviour:
       - m_Id: 294e0f25962dcbb41b0edc272f47f791
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 869dfeb7722d19c41bcffdee76e568ce
-        m_Value: https://knabsiraphop.github.io/kidzdev-unity-project-template/Addressables
+        m_Value: https://knabsiraphop.github.io/kidzdev-unity-project-template/Addressables/[BuildTarget]
       - m_Id: 9af5066dab12d4541934eeada5ba27b0
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: da9cd1eade2726b4aa27115ddbfef25b
