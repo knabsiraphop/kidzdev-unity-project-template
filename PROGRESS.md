@@ -2,6 +2,14 @@
 
 Session log for fast-tracking context across sessions. Newest on top.
 
+## 2026-08-04
+- Fixed CLAUDE.md's stale "What NOT to assume" Local/Remote note (flagged 2026-08-02) — now correctly states this project runs `Remote`, template default stays `Local`.
+- User fixed `addressables-toolkit` package (sibling repo) and pinned it here: `com.kidzdev.unity.addressables-toolkit` → tagged `v1.6.0` git URL (was local `file:` link), committed as `b12ef2c`.
+- Reviewed and committed the full pending diff carried over from 2026-08-02 (Remote Addressables flip, MainMenu group restructure, ConfirmPopup→Resources move, `_Project`→`Scripts` rename, `SceneTransition`/`PopupKeys` additions, TextMesh Pro assets, doc updates) as `872e9c0`.
+- Pushed commits to `origin/master` (`872e9c0`).
+- User asked why `.claude/`, `CLAUDE.md`, `plans/` were tracked in git; decided to untrack all three (kept locally, gitignored going forward) despite CLAUDE.md's own text saying it should stay checked in — explicit user call.
+- Next: push `gh-pages` branch + enable GitHub Pages (user-gated, still not done) — required for Remote CDN URLs to actually resolve.
+
 ## 2026-08-02
 - Added CLAUDE.md rule: log all repo changes to CHANGELOG.md + PROGRESS.md each session.
 - Created `/update-doc` slash command (`.claude/commands/update-doc.md`) to automate this log.

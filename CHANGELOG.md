@@ -3,6 +3,10 @@
 Format: date, then change list. Newest on top.
 
 ## Unreleased
+- Packages: `com.kidzdev.unity.addressables-toolkit` switched from local `file:` link to tagged git URL `v1.6.0` (adds Build Addressables window + group-schema baseline/validator). Resolver side effects: `com.ivanmurzak.unity.mcp` 0.86.3→0.87.0, `com.kidzdev.unity.ui-overlay` re-synced to v1.2.0, `packages-lock.json` updated to match.
+- CLAUDE.md: "What NOT to assume" Local/Remote note reconciled — now states this project is on `Remote` (template default is still `Local`).
+- Committed the full pending session diff from 2026-08-02 (see below) as commit `872e9c0`.
+- `.gitignore`: added `.claude/`, `CLAUDE.md`, `/plans/` — untracked from repo (kept locally, per user request), no longer shared/checked in.
 - Bootstrap: scene load now routes through new `SceneTransition.LoadAsync` (fade-in/out, configurable duration) instead of direct `SceneLoader.LoadAsync`. Added `sceneFadeInDuration`/`sceneFadeOutDuration` fields to `GameBootstrap`.
 - Added `Assets/Scripts/Runtime/Bootstrap/SceneTransition.cs`.
 - `KidzGame.Bootstrap.asmdef`: added reference to `KidzDev.Unity.UIOverlay`.

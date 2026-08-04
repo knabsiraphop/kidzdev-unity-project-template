@@ -62,5 +62,8 @@ crashlytics-build.properties
 
 # Claude Code local/session state (machine- and session-specific, not shareable)
 .mcp.json
-.claude/settings.local.json
-.claude/scheduled_tasks.lock
+.claude/
+
+# Local-only project docs, not shared
+CLAUDE.md
+/plans/
